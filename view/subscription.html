@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meetic</title>
+    <link href="../assets/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- NAVIGATION -->
+<header class="navigation">
+    <h1><a href="index.html">My Meetic</a></h1>
+</header>
+
+<!-- SUBSCRIPTION FORM -->
+<section class="all-contents connection-subscription">
+    <h2>Sign up</h2>
+    <form id="subscriptionForm" name="subscription">
+        <label for="firstname">First name</label>
+        <input id="firstname" value="" class="input-txt" type="text" name="firstname" placeholder="Jack">
+        <br>
+        <label for="lastname">Last name</label>
+        <input id="lastname" value="" class="input-txt" type="text" name="lastname" placeholder="JACK">
+        <br>
+        <label for="city">City</label>
+        <input id="city" value="" class="input-txt" type="text" name="city" placeholder="Dublin">
+        <br>
+        <label for="birthdate">Birth date</label>
+        <input id="birthdate" class="input-txt" type="text" name="birthdate" placeholder="2000-01-01">
+        <br>
+        <label>Hobbies</label><br>
+        <label for="hobby1">Dance</label>
+        <input id="hobby1" class="input-txt" type="radio" name="hobbies" value="Dance"><br>
+        <label for="hobby2">Skateboard</label>
+        <input id="hobby2" class="input-txt" type="radio" name="hobbies" value="Skateboard"><br>
+        <label for="hobby3">Manga</label>
+        <input id="hobby3" class="input-txt" type="radio" name="hobbies" value="Manga"><br>
+        <label for="hobby4">Unicorn</label>
+        <input id="hobby4" class="input-txt" type="radio" name="hobbies" value="Unicorn"><br>
+        <label for="hobby5">Cooking</label>
+        <input id="hobby5" class="input-txt" type="radio" name="hobbies" value="Cooking"><br>
+        <label for="hobby6">Other</label>
+        <input id="hobby6" class="input-txt" type="radio" name="hobbies" value="Other" checked><br>
+        <br>
+        <label for="mail_subscription">Mail address</label>
+        <input id="mail_subscription" value="@gmail.com" class="input-txt" type="text" name="mail"
+               placeholder="love.cinema@mail.com"/>
+        <br>
+        <label for="password_subscription">Password</label>
+        <input id="password_subscription" value="" class="input-txt" type="password" name="password"/>
+        <br>
+        <br>
+        <div>
+            <input type="radio" id="genre1" name="genre" value="man" checked>
+            <label for="genre1">Man</label>
+        </div>
+        <div>
+            <input type="radio" id="genre2" name="genre" value="woman">
+            <label for="genre2">Woman</label>
+        </div>
+        <div>
+            <input type="radio" id="genre3" name="genre" value="other">
+            <label for="genre3">Other</label>
+        </div>
+
+        <button type="submit" name="submit" value="submit" class="button1">Sign up</button>
+        <a href="connection.html">Sign in</a>
+    </form>
+</section>
+<!-- JQUERY CDN-->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+<script src="../controller/script.js"></script>
+<script src="../controller/mustNotBeConnected.js"></script>
+</body>
+</html>

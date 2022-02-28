@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meetic</title>
+    <link href="../assets/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- NAVIGATION -->
+<header class="navigation">
+    <h1><a href="index.html">My Meetic</a></h1>
+    <input type="button" id="logout-btn" value="Log out" class="button1 logout-btn">
+</header>
+<!-- PROFILE UPDATE -->
+<section class="all-contents connection-subscription">
+    <h2>Update profile</h2>
+    <form name="profile-view" id="profileForm">
+        <div id="user-data">
+            <label for="firstname">First name</label>
+            <input id="firstname" value="" class="input-txt" type="text" name="firstname" placeholder="Jack">
+            <br>
+            <label for="lastname">Last name</label>
+            <input id="lastname" value="" class="input-txt" type="text" name="lastname" placeholder="JACK">
+            <br>
+            <label for="city">City</label>
+            <input id="city" class="input-txt" type="text" name="city" placeholder="Dublin">
+            <br>
+        </div>
+        <button type="submit" name="submit" value="submit" class="button1" id="profileSave-btn">Save</button>
+        <a href="profile.html">Go back</a>
+    </form>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+<script src="../controller/script.js"></script>
+<script src="../controller/update_profile.js"></script>
+<script src="../controller/mustBeConnected.js"></script>
+</body>
+</html>

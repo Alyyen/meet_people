@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meetic</title>
+    <link href="../assets/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- NAVIGATION -->
+<header class="navigation">
+    <h1><a href="index.html">My Meetic</a></h1>
+</header>
+
+<!-- LOGIN FORM -->
+<section class="all-contents connection-subscription">
+    <h2>Sign in</h2>
+    <form id="loginForm" name="connection">
+        <label for="login_mail">Mail address</label>
+        <input value="alyppopotamus@gmail.com" id="login_mail" class="input-txt" type="text" name="login_mail"
+               placeholder="love.cinema@mail.com"/>
+        <br>
+        <label for="login_password">Password</label>
+        <input value="alypopo" id="login_password" class="input-txt" type="password" name="login_password"/>
+        <br>
+
+        <button type="submit" name="login_submit" value="login_submit" class="button1">Sign in</button>
+        <a href="subscription.html">Sign up</a>
+    </form>
+</section>
+<!-- JQUERY CDN-->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+<script src="../controller/script.js"></script>
+<script src="../controller/mustNotBeConnected.js"></script>
+</body>
+</html>

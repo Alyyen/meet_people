@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meetic</title>
+    <link href="../assets/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- NAVIGATION -->
+<header class="navigation">
+    <h1><a href="index.html">My Meetic</a></h1>
+    <input type="button" id="logout-btn" value="Log out" class="button1 logout-btn">
+</header>
+<!-- DELETE FORM -->
+<section class="all-contents connection-subscription">
+    <h2>Delete account</h2>
+    <form id="deleteForm">
+        <p>Do you really want to delete this account ?</p>
+        <button type="submit" class="button1" name="delete-choice" value="Delete" id="delete_OK">Delete</button>
+        <a href="profile.html">Go back</a>
+    </form>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+<script src="../controller/script.js"></script>
+<script src="../controller/delete_profile.js"></script>
+<script src="../controller/mustBeConnected.js"></script>
+</body>
+</html>

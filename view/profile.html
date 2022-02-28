@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Meetic</title>
+    <link href="../assets/style.css" rel="stylesheet">
+</head>
+<body>
+<!-- NAVIGATION -->
+<header class="navigation">
+    <h1><a href="index.html">My Meetic</a></h1>
+    <input type="button" id="logout-btn" value="Log out" class="button1 logout-btn">
+</header>
+<!-- CONTENT -->
+<section class="all-contents connection-subscription">
+    <h2>Profile</h2>
+    <div id="user-data"></div>
+    <a href="update_profile.html" class="button1">Update</a>
+    <a href="delete_profile.html" class="button1">Delete account</a>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+<script src="../controller/script.js"></script>
+<script src="../controller/profile.js"></script>
+<script src="../controller/mustBeConnected.js"></script>
+</body>
+</html>
